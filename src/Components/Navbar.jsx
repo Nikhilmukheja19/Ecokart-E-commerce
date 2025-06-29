@@ -6,7 +6,7 @@ const Navbar = () => {
   const [visible, setVisible] = useState(null);
   const { setShowSearch, getCartCount } = useContext(ShopContext);
   return (
-    <div className="flex items-center justify-between py-5 font-bold">
+    <div className="flex items-center justify-between font-bold">
       <Link to="/" className="flex items-center gap-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
